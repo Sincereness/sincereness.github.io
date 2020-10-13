@@ -1,0 +1,47 @@
+@font-face {
+    font-family: main;
+    src: url('fonts/main.otf');
+  }
+
+body {
+  background-color: #794c74;
+  font-family: main;
+  animation: fadeIn;
+  animation-duration: 2s;
+  }
+
+.header-tittle {
+  color: #eeecda;
+  font-size: 175px;
+
+}
+
+.button {
+  padding: 30px;
+  margin: 50px;
+  font-size: 150px;
+  background-color: #c56183;
+  color: #eeecda;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  transition: 2s;
+  border: 4px solid;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(10px);
+|}
+
+#contentPage {
+  font-size: 200px;
+  text-align: center;
+  margin: 50px;
+  color: #eeecda;
+  border: 4px solid;
+  display: inline-block;
+  padding: 20px;
+  position: static;
+
+}
